@@ -1,0 +1,3 @@
+export const RETRIEVE_CHARACTERS = "RETRIEVE_CHARACTERS";
+export const SET_LOGIN = "SET_LOGIN";
+export const SET_SIGIN = "SET_SIGIN";

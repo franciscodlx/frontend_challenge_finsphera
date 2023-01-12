@@ -1,6 +1,6 @@
 import {
   RETRIEVE_CHARACTERS,
-} from "../actions/types";
+} from "../actions/type";
 
 const initialState = {
   item:{},

@@ -1,7 +1,7 @@
 import {
   SET_SIGIN,
   SET_LOGIN,
-} from "../actions/types";
+} from "../actions/type";
 
 const initialState = {
   profile: {},

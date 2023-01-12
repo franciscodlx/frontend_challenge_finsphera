@@ -1,0 +1,66 @@
+.formLogin {
+  background: #f2f2f3;
+  border-radius: 10px;
+  position: relative;
+  top: calc(50% - 58px);
+  transform: translateY(calc(-50% ));
+}
+
+.btn-login {
+  background-color: #9dc72a !important;
+  border-color: #9dc72a !important;
+  font-size: 12px !important;
+}
+
+.btn-sigin {
+  background-color: #f49c28 !important;
+  border-color: #f49c28 !important;
+  color: #fff !important;
+  font-size: 12px;
+}
+
+.formLogin-notAccount {
+  color: #959595;
+  font-size: 12px;
+}
+
+.formLogin-titleLogin {
+  color: rgb(157 199 42 / 70%);
+  font-size: 12px;
+}
+
+.form-floating {
+  position: relative;
+
+  & .form-control {
+    border-color: transparent;
+    border-radius: 8px;
+    height: calc(2.5rem + 2px);
+  }
+
+  & label {
+    color: #d3d3d3;
+    font-size: 12px;
+    padding: 0.6rem 0.75rem;
+  }
+}
+
+.icon-eyeShow {
+  color: #c7c7c7;
+  position: absolute;
+  right: 10px;
+  top: 11px;
+}
+
+.check-label{
+  &--conditions {
+    color: #7e7e7e;
+    font-size: 12px;
+  }
+
+  &--link {
+    color: #519dc2;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}

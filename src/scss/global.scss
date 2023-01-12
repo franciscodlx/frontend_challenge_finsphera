@@ -1,0 +1,17 @@
+body, 
+html {
+  background: linear-gradient(135deg, rgba(120,81,159,1) 20%, rgba(19,145,187,1) 66%);
+  font-size: 14px;
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}

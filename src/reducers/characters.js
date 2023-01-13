@@ -3,18 +3,20 @@ import {
 } from "../actions/type";
 
 const initialState = {
-  item:{},
+  items: {},
 };
 
-const charactersReducer = (characters = initialState, action) => {
-  const { type, payload } = action;
+const actionsMap = {
+  [RETRIEVE_CHARACTERS]: (state, action) => ({
+    ...state,
+    items: action.payload,
+  }),
+};
 
-  switch (type) {
-    case RETRIEVE_CHARACTERS:
-      return payload;
-    default:
-      return characters;
+export default function reducer(state = initialState, action = {}) {
+  const fn = actionsMap[action.type];
+  if (!fn) {
+    return state;
   }
-};
-
-export default charactersReducer;
+  return fn(state, action);
+}

@@ -6,7 +6,7 @@ import logo from '../../assets/logo.png';
 
 const NabBar = () => {
   return (
-    <Navbar collapseOnSelect expand="lg">
+    <Navbar collapseOnSelect expand="lg" className='bg-white'>
       <Container>
         <Navbar.Brand href="/">
           <Image 
@@ -15,16 +15,16 @@ const NabBar = () => {
             src={ logo } 
             />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" className='bg-white' />
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Toggle aria-controls="navForm" className='bg-white' />
+        <Navbar.Collapse id="navForm">
           <Nav className='ms-auto'>
-            <Nav.Link href="#" className='text-white navlink fw-bold'>
+            <Nav.Link href="#" className='text-dark navlink fw-bold'>
               Acerca de Nosotros
             </Nav.Link>
-            <Nav.Link href="#" className='text-white navlink fw-bold'>
+            <Nav.Link href="#" className='text-dark navlink fw-bold'>
               ¿C&oacute;mo funciona?
             </Nav.Link>
-            <Nav.Link href="#" className='text-white navlink fw-bold'>
+            <Nav.Link href="#" className='text-dark navlink fw-bold'>
               Cont&aacute;ctanos
             </Nav.Link>
           </Nav>
